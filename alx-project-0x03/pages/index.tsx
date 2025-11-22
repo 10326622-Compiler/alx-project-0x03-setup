@@ -23,6 +23,7 @@ export default function Home() {
 
       {/* Navigation Options */}
       <div className="flex gap-6">
+        <h1> Welcome to Splash App </h1>
         <Button 
           action={() => routeToNextPage({ pageRoute: '/generate-text-ai' })} 
           buttonLabel="Generate Text" 
